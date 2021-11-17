@@ -1,0 +1,161 @@
+/***BASE STYLES***/
+
+body {
+    color: black;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    color:#77a466;
+    font-size: 18pt;
+}
+
+h3 {
+    font-size: 12pt;
+}
+
+/***GRID***/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top-section {
+    width: 1200px;
+}
+
+.third-width {
+    float: left;
+    width: 395px;
+    height: 200px;
+}
+
+.footer {
+    width: 1200px;
+}
+
+/***HEADER***/
+
+header {
+    height: 110px;
+    padding: 30px 0;
+    margin: 0 auto;
+    border-bottom: 3px solid #77a466;
+}
+
+/**NOTE: "clear: both; in 'header nav ul li' block allows for both the 'bottom-border' to work AND the alignment - see below - of nav and h1**/
+
+header span {
+    color: #77a466;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 38px;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+    
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-bottom: 30px;
+    clear: both;
+}
+/**NOTE: "clear: both; in 'header nav ul li' block allows for the nav to align with h1**/
+
+nav ul li a {
+    font-family: 'Montserrat', bold;
+    font-size: 12pt;
+    font-weight: bolder;
+    color: #77a466;
+    padding-left: 15px; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/***TOP-SECTION***/
+/**NOTE: I have been trying to create top and bottom borders on the bean image for a week now, no luck. I have found ways to place a top line and bottom line, but not ones that sit up again the image.**/
+
+.bean-img {
+    border-bottom: 3px solid #77a466;
+    height: auto;
+}
+
+.top-section p {
+    margin-bottom: 50px;
+}
+
+/***BOTTOM-SECTION***/
+
+.third-width {
+    border-top: 3px solid #eee;
+    float: left;
+    height: auto;
+    width: 370px;
+}
+/**NOTE: I see that on the psd file there isn't a far right or left border. I haven't been able to find CSS language to replicate that border yet.**/
+
+#third-width-two {
+    border-left: 2px solid #eee;
+	border-right: 2px solid #eee;
+    height: 208px;
+    padding-left: 25px;
+    padding-right: 10px;
+    line-height: 160%;
+}
+
+#third-width-three {
+    padding-left: 25px;
+}
+
+.third-width p span {
+    color: #77a466;
+    list-style-type: none;
+    line-height: 180%;
+}
+
+/***footer***/
+
+footer {
+    height: 50px;
+    border-top: 3px solid #eee;
+    margin: auto;
+    clear: both;
+    text-align: center;
+}
+
+footer h4 {
+    clear: both;
+    text-align: center;
+}
+
+footer h4 span {
+    color: #77a466;
+    font-family: 'Galada';
+    font-size: 16pt;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+
